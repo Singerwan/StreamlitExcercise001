@@ -1,4 +1,3 @@
-pip install - - upgrade pip
 from pillow import Image 
 from datetime import datetime, timedelta
 import time 
