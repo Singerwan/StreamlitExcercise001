@@ -1,0 +1,63 @@
+from matplotlib.patches import Polygon
+import calendar
+import mpl_toolkits.mplot3d.axes3d as axes3d
+from sympy.plotting import plot_parametric
+import time
+import numpy as np 
+import matplotlib.pyplot as plt
+from IPython import display
+import pandas as pd
+from matplotlib.animation import FuncAnimation,PillowWriter #export animation 
+import matplotlib.animation as animation
+from IPython.display import display, Math
+import sympy as sympy
+sympy.init_printing()
+from sympy import symbols 
+from sympy.solvers import solve 
+from matplotlib.colors import LogNorm
+from matplotlib.animation import FuncAnimation 
+import numpy as np
+plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+plt.rcParams['axes.unicode_minus'] = False
+import ipywidgets as wg
+import random
+from matplotlib.patches import Ellipse
+from matplotlib.text import OffsetFrom
+from io import StringIO
+from tqdm import tqdm,trange  # loop  for dog in  tqdm(dogs): for dog in  trange(6)
+from time import sleep
+from datetime import datetime
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
+import matplotlib.patches as mpatches
+import matplotlib.image as mpimg
+import math
+%matplotlib inline
+from functools import reduce
+import seaborn as sns
+import matplotlib as mpl
+from statsmodels.stats import weightstats   # weightstats =for t and z test 
+import statsmodels.stats.proportion as propotion # 2 pr
+from statsmodels.stats import proportion
+from scipy.stats import norm 
+import scipy.stats as stats
+plt.rcParams['font.sans-serif'] = ['SimHei'] 
+plt.rcParams['axes.unicode_minus'] = False 
+import cmath
+from itertools import combinations
+from itertools import permutations
+from matplotlib import *
+from matplotlib.patches import Rectangle
+from matplotlib.patches import Circle
+import matplotlib
+from scipy.signal import find_peaks
+from IPython.display import display,Math
+from sympy import symbols, Eq, solve,Matrix,solve_linear_system
+from mpl_toolkits.mplot3d import Axes3D
+from sympy.interactive import printing
+printing.init_printing(use_latex=True)
+from PIL import Image
+from datetime import datetime
+import plotly.express as px
+import plotly.graph_objects as go
+import xlwings as xlwings
